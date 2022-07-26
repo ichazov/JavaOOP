@@ -4,6 +4,7 @@ public class MainOne {
     public static void main(String[] args) {
         //Part 1
         Vector vector = new Vector(4,6,8);
+
         System.out.println(vector.lengthOfVectors());
         System.out.println("");
 
@@ -11,5 +12,6 @@ public class MainOne {
         System.out.println("");
 
         System.out.println(vector.dotProduct());
+        System.out.println("");
     }
 }
